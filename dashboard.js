@@ -7,7 +7,7 @@ switchMode.addEventListener('change', function () {
 		document.body.classList.remove('dark');
 	}
 });
-function adarkmode(){
+function darkmode(){
     if(switchMode.checked == true) {
 		localStorage.setItem("formBody", "dark");
 		localStorage.setItem("Mode", true);
